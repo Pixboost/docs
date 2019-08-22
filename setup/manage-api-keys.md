@@ -2,7 +2,13 @@
 
 **API Key** is a unique string that is used to secure your API access. Every API Key is globally unique and exists only in your account.
 
-Once you [added at least one image source](adding-image-source.md) you will see the dashboard that will have "API Keys" section![](../.gitbook/assets/api-keys-list.png)You will already have one active API Key that you can start using straight away. You'll need to pass an API Key in a query parameter called "**auth**" in the transformation URL. For example:
+Once you [added at least one image source](adding-image-source.md) you will see the dashboard that will have "API Keys" section
+
+![](../.gitbook/assets/api-keys-list.png)
+
+You will already have one active API Key that you can start using straight away. 
+
+You'll need to pass an API Key in a query parameter called "**auth**" in the transformation URL. For example:
 
 [https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&\*\*auth=MTg4MjMxMzM3MA\](https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&**auth=MTg4MjMxMzM3MA\)\_\*\*\_
 

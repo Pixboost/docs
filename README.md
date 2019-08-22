@@ -1,6 +1,6 @@
 # Overview
 
-[**Pixboost**](https://pixboost.com/) ****is a Cloud Service that resizes and optimises Raster Images \(e.g. \*.jpg, \*.png, etc\) for file size reduction and decreased Load Times. Once an image has been processed, it's file is cached on CDN, increasing the speed at which images can be retrieved on subsequent requests.
+[**Pixboost**](https://pixboost.com/) is a Cloud Service that resizes and optimises Raster Images \(e.g. \*.jpg, \*.png, etc\) for file size reduction and decreased Load Times. Once an image has been processed, it's file is cached on CDN, increasing the speed at which images can be retrieved on subsequent requests.
 
 The service can also be used to resize and crop images, which makes generating responsive images that respect the device and screen size on which they are being displayed simple to achieve. Using the service requires modifications to the image URL.
 

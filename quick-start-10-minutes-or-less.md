@@ -42,7 +42,7 @@ You can add as much domains and sub-domains as you need by clicking "**Add domai
 
 ## **Step 4**
 
-Below you will see a pre-generated _**API Keys**_ section, which you will use to generate more API Keys if needed.
+Below you will see a pre-generated _**API Keys**_, which you will use to generate more API Keys if needed.
 
 > _**API Key**_ is a value that is generated for security purposes by Pixboost. You have to use it in the URLs of images you wish to deliver through Pixboost service.
 
@@ -100,5 +100,5 @@ For more information on API, please read the full [Images API here](https://help
 
 Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](https://help.pixboost.com/api/) instructions.
 
-Apart from URL-based transformations we provide pixboost.js for more complex integration cases. For more information please check our integration documentation [here](https://help.pixboost.com/integration/web-dom.html).
+Apart from URL-based transformations we provide [pixboost.js](web-dom/README.md) and [pixboost-react](react/README.md) for more complex integration cases. For more information please check our integration documentation [here](https://help.pixboost.com/integration/web-dom.html).
 

@@ -70,7 +70,5 @@ Read more on operations:
 
 ## [As is](as-is.md)
 
-## [Cache Invalidation](cache-invalidation.md)
-
 You can explore API sandbox here: [https://pixboost.com/docs/api/](https://pixboost.com/docs/api/)
 
