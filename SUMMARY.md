@@ -17,7 +17,6 @@
   * [Fit](api/fit.md)
   * [Optimise](api/optimise.md)
   * [As is](api/as-is.md)
-  * [Cache Invalidation](api/cache-invalidation.md)
 * [API. JavaScript Integration](web-dom/README.md)
   * [Installation](web-dom/install.md)
   * [Responsive Images](web-dom/responsive-images.md)
