@@ -4,12 +4,11 @@
 
 ## How to use it from a sandbox or from the app
 
-To start using Snippet Generator you have to options. You either use our sandbox to check it out or you log in to your Pixboost account and there you can use this tool for your projects.
+To start using Snippet Generator you have two options. You either use our demo account to check it out or you log into your Pixboost account and there you can use this tool for your projects.
 
-For sandbox the [Start Snippet Generator](https://pixboost.com/snippet/?k=MTg4MjMxMzM3MA__)
+For sandbox follow the link to [start Snippet Generator](https://pixboost.com/snippet/?k=MTg4MjMxMzM3MA__)
 
-* You have to have a URL to the image you would like to compress, scale and deliver through CDN. Or you can use our pre-set images to see how this tool works. Pre-Set sandbox Image URL: [http://www.midday.coffee/image.jpg](https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.midday.coffee%2Fimage.jpg&h=AT0qGqfh1sqliyvsz48vGTCD2PWEVMtywKrZIX6eqHvv7_p3ncit1EZvz5MBOt0Go0MYQ8cK0UKXZVgko_SzsijUK4FhuDvQhzwtxId4jOZX-Gezzzw4OpoIIQurRVdZp3Xplg)
-* You have to have an API Key, which we generate for security purposes. You can use this temporary key to test the app: MTg4MjMxMzM3MA\_\_
+* Paste URL to the image you would like to compress, scale and deliver through CDN. Or you can use our example image to see how this tool works. Pre-Set Image URL - `http://www.midday.coffee/image.jpg`
 
 As a sandbox user or as a registered user you use Snippet Generator in a similar way:
 
