@@ -74,21 +74,21 @@ Let's look through the parameters of this URL:
 
 Basic API operations are:
 
-* **Resize** - resize to the needed size with preserving aspect ratio 
+* **Resize** - resize to the needed size with preserving aspect ratio
 
-    `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/resize?size=240&auth=API_KEY`
+  `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/resize?size=240&auth=API_KEY`
 
 * **Fit** - resize to the exactly specified size ignoring aspect ratio. Will crop image if needed.
 
-    `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/fit?size=300x200&auth=API_KEY`
+  `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/fit?size=300x200&auth=API_KEY`
 
 * **Optimise** - optimising image
 
-    `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/optimise?auth=API_KEY`
+  `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/optimise?auth=API_KEY`
 
 * **As is** - do not perform any transformations
 
-    `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/asis?auth=API_KEY`
+  `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/asis?auth=API_KEY`
 
 Please, refer to the samples in the bottom of the page:
 
@@ -100,5 +100,5 @@ For more information on API, please read the full [Images API here](https://help
 
 Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](https://help.pixboost.com/api/) instructions.
 
-Apart from URL-based transformations we provide [pixboost.js](web-dom/README.md) and [pixboost-react](react/README.md) for more complex integration cases. For more information please check our integration documentation [here](https://help.pixboost.com/integration/web-dom.html).
+Apart from URL-based transformations we provide [pixboost.js](web-dom/) and [pixboost-react](react/) for more complex integration cases. For more information please check our integration documentation [here](https://help.pixboost.com/integration/web-dom.html).
 

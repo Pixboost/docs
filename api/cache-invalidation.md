@@ -14,7 +14,7 @@ curl -X DELETE 'https://pixboost.com/api/2/img/http://www.midday.coffee/banner.j
 
 ## Parameters
 
-API\_SECRET - [secret key](api-secrets.md).
+API\_SECRET - [secret key](../workflows/api-secrets.md).
 
 ## Example
 

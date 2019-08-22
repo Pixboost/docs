@@ -6,7 +6,7 @@ Once you [added at least one image source](adding-image-source.md) you will see 
 
 ![](../.gitbook/assets/api-keys-list.png)
 
-You will already have one active API Key that you can start using straight away. 
+You will already have one active API Key that you can start using straight away.
 
 You'll need to pass an API Key in a query parameter called "**auth**" in the transformation URL. For example:
 
