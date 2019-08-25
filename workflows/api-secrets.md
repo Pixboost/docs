@@ -1,6 +1,6 @@
 # API Secrets
 
-API secrets are used to call [workflows](./) API. You can manage your API secrets from the dashboards:
+API secrets are used to call [workflows](./) API. You can manage your API secrets from the dashboard:
 
 ![](../.gitbook/assets/workflow-api-secrets.png)
 
