@@ -46,7 +46,9 @@ Below you will see a pre-generated _**API Keys**_, which you will use to generat
 
 > _**API Key**_ is a value that is generated for security purposes by Pixboost. You have to use it in the URLs of images you wish to deliver through Pixboost service.
 
-![](.gitbook/assets/api_keys.png)You might need more then one key in your project. Please read the manual on **API Keys Usage and Security Issues**.
+![](.gitbook/assets/api_keys.png)
+
+You might need more then one key in your project. Please read the manual on **API Keys Usage and Security Issues**.
 
 To add more keys please press the link "**Generate new key**":
 
@@ -68,7 +70,7 @@ Let's look through the parameters of this URL:
 
 `mywebsite.com.au/logo.png/`- URL to the image you would like to process through Pixboost
 
-`resize?size=200&` - function call with parameters, where resize is the resize function you wish you use, and size=200 is a value you wish to set for your image.
+`resize?size=200&` - function call with parameters, where resize is the resize function you wish to use, and size=200 is a value you wish to set for your image.
 
 `auth=MjczNjAyMjY3NQ__` - is an API key that Pixboost generates for you.
 
@@ -94,11 +96,11 @@ Please, refer to the samples in the bottom of the page:
 
 ![](.gitbook/assets/url_samples.png)
 
-For more information on API, please read the full [Images API here](https://help.pixboost.com/api/).
+For more information on API, please read the [Images API section](api/).
 
 ## **Step 6**
 
-Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](https://help.pixboost.com/api/) instructions.
+Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](api/) instructions.
 
-Apart from URL-based transformations we provide [pixboost.js](web-dom/) and [pixboost-react](react/) for more complex integration cases. For more information please check our integration documentation [here](https://help.pixboost.com/integration/web-dom.html).
+Apart from URL-based transformations we provide [pixboost.js](web-dom/) and [pixboost-react](react/) libraries for more complex integration cases. For more information please check our integration documentation [here](web-dom/).
 
