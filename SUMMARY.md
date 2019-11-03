@@ -12,7 +12,6 @@
   * [Supported Image Formats](setup/supported-formats.md)
   * [HTTP/2 Support](setup/http2-support.md)
   * [HTTP/3 Support](setup/http3-support.md)
-  * [CDN Support](setup/cdn-support.md)
 * [API. URL-based integration](api/README.md)
   * [Resize](api/resize.md)
   * [Fit](api/fit.md)
