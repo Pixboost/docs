@@ -1,4 +1,4 @@
-# API. ReactJS integration
+# React integration
 
 Library for integrating pixboost API into the react applications.
 

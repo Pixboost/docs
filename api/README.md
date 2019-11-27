@@ -1,4 +1,4 @@
-# API. URL-based integration
+# API
 
 To make integration easier we came up with URL-based integration. Which means all you need to do is to setup image URL for tags **&lt;img&gt;** and **&lt;picture&gt;** to start using [Pixboost](https://pixboost.com/).
 

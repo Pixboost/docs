@@ -22,11 +22,11 @@ Please, consider the following sources for more information:
 
 ## [Supported Image Formats](setup/supported-formats.md)
 
-## [URL-based Integration](https://help.pixboost.com/api/)
+## [API](api/)
 
 ## [Pixboost.js Integration](web-dom/)
 
-## [ReactJS Integration](react/)
+## [React Integration](react/)
 
 ## [API Sandbox](https://pixboost.com/docs/api/)
 

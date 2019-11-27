@@ -1,6 +1,6 @@
 # Optimise
 
-API endpoint - `/api/2/img/[IMAGE-URL]/optimise?`
+API endpoint - `/api/2/img/[IMAGE-URL]/optimise`
 
 ## Description
 

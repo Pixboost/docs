@@ -1,6 +1,6 @@
 # As is
 
-API endpoint - `/api/2/img/[IMAGE-URL]/asis?`
+API endpoint - `/api/2/img/[IMAGE-URL]/asis`
 
 ## Description
 
