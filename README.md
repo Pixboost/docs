@@ -24,9 +24,11 @@ Please, consider the following sources for more information:
 
 ## [API](api/)
 
-## [Pixboost.js Integration](web-dom/)
+## [Javascript Integration](web-dom/)
 
 ## [React Integration](react/)
+
+## [Shopify Integration](shopify/)
 
 ## [API Sandbox](https://pixboost.com/docs/api/)
 
