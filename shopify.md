@@ -22,15 +22,15 @@ Please, follow steps from ["Installation"](shopify.md#installation) section to u
 
 * Open your Shopify store dashboard and go to the "Themes" section
 
-    ![](.gitbook/assets/shopify-theme-section.png)
+![](.gitbook/assets/shopify-theme-section.png)
 
 * Click on "Upload theme" button and select the zip archive that you downloaded before
 
-    ![](.gitbook/assets/shopify-upload-theme.png)
+![](.gitbook/assets/shopify-upload-theme.png)
 
 * An uploaded theme should appear on the list
 
-    ![](.gitbook/assets/shopify-added-theme.png)
+![](.gitbook/assets/shopify-added-theme.png)
 
 At this point you should be able to preview the theme and it will use Pixboost demo account. All the images will be served from Pixboost Image CDN. Note that first time the images will load slower as they will go through optimisation and CDN uploading process. Reload the page after initial load to see the real performance.
 
@@ -40,27 +40,27 @@ Once you are happy with the result you would need to create a Pixboost account a
 
 * [Sign up here](https://github.com/Pixboost/docs/tree/f5010c234fd24fe5e3402831d8152bbad3b3c3ea/shopify/pixboost.com/customer/README.md#/signup) and select Shopify integration
 
-    ![](.gitbook/assets/shopify-pixboost-signup.png)
+![](.gitbook/assets/shopify-pixboost-signup.png)
 
 * Confirm your email and copy your API key from the dashboard
 
-    ![](.gitbook/assets/shopify-pixboost-api-key.png)
+![](.gitbook/assets/shopify-pixboost-api-key.png)
 
 * Go back to your Shopify store and click on "Customize" button on uploaded theme
 
-    ![](.gitbook/assets/shopify-customize-theme.png)
+![](.gitbook/assets/shopify-customize-theme.png)
 
 * Open "Theme Settings" tab and go to "Pixboost" section
 
-    ![](.gitbook/assets/shopify-pixboost-settings.png)
+![](.gitbook/assets/shopify-pixboost-settings.png)
 
 * Paste or enter your API key
 
-    ![](.gitbook/assets/shopify-enter-api-key.png)
+![](.gitbook/assets/shopify-enter-api-key.png)
 
 * Click "Save" button and preview the theme to make sure that images are working
 
-    ![](.gitbook/assets/shopify-save-theme.png)
+![](.gitbook/assets/shopify-save-theme.png)
 
 Congratulation! You now have responsive, optimised and fast images on your Shopify store. Keep customizing you page layouts and publish the theme once you are ready.
 
