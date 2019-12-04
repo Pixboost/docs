@@ -1,4 +1,4 @@
-# API. JavaScript Integration
+# JavaScript Integration
 
 You can integrate Pixboost into web app/site that that has direct access to the DOM, e.g. jQuery, Backbone. This  
 solution won't work well with frameworks that using shadow DOM, e.g. React, AngularJs.

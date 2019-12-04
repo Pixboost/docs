@@ -28,7 +28,7 @@ Please, consider the following sources for more information:
 
 ## [React Integration](react/)
 
-## [Shopify Integration](shopify/)
+## [Shopify Integration](shopify.md)
 
 ## [API Sandbox](https://pixboost.com/docs/api/)
 

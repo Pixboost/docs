@@ -12,5 +12,5 @@ Example of the workflow could be a CDN cache invalidation in case of image repla
 
 ## Pricing
 
-There is a limitation in number of calls that you allowed to do that depends on the selected plan.
-Please, refer to the [pricing page](/billing.md) to see the exact numbers.
+There is a limitation in number of calls that you allowed to do that depends on the selected plan. Please, refer to the [pricing page](../billing.md) to see the exact numbers.
+

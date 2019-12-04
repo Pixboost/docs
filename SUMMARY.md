@@ -35,7 +35,7 @@
   * [Configuration Object](react/configuration-object.md)
   * [Browsers Support](react/browsers-support.md)
   * [Build](react/build.md)
-* [Shopify Integration](shopify/README.md)
+* [Shopify Integration](shopify.md)
 * [Automated Workflows](workflows/README.md)
   * [Cache Invalidation](workflows/cache-invalidation.md)
   * [API Secrets](workflows/api-secrets.md)

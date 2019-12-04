@@ -16,13 +16,13 @@ curl -X DELETE 'https://pixboost.com/api/2/img/http://www.midday.coffee/banner.j
 
 API\_SECRET - [secret key](api-secrets.md).
 
-## Response 
+## Response
 
 200 - Image been cleared. Usually, you'll see this response if image hasn't been cached in CDN
 
 202 - Request been successfully accepted. Cache will be cleared in 5 minutes or so.
 
-401 - Failed authorization. Image domain is not in the list of [images sources](/setup/adding-image-source.md)
+401 - Failed authorization. Image domain is not in the list of [images sources](../setup/adding-image-source.md)
 
 ## Example
 
