@@ -16,13 +16,13 @@ You have to specify both dimensions \[width\] and \[height\].
 
 size =`200x100 (scaling by the smaller side which is height, cropping sides, center positioning)`
 
-| Options | Original | After |
+| Parameters | Original | After |
 | :--- | :---: | :---: |
-| size=200x100 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTg4MjMxMzM3MA__) |
+| size=200x100 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ\_\_) |
 
 ### Sandbox
 
 | Original Image | Image after Pixboost transformation |
 | :--- | :--- |
-| [www.midday.coffee/assets/cup.jpeg](https://github.com/dmitrypokidov/pixboost/tree/c6f1ddd25e878d9100600d2df063f6910794593f/www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTg4MjMxMzM3MA\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTg4MjMxMzM3MA__)\_ |
+| [www.midday.coffee/assets/cup.jpeg](www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__)\_ |
 
