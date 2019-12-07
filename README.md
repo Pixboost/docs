@@ -8,7 +8,9 @@ Below is the diagram on Pixboost brief architecture.
 
 ![](.gitbook/assets/pixboost-concept.jpg)
 
-Below is a short video that shows image transformations in action:![](.gitbook/assets/pixboost-api-overview.gif)
+Below is a short video that shows image transformations in action:
+
+![](.gitbook/assets/pixboost-api-overview.gif)
 
 To start working with the service you would only need to register and [add you image source](setup/adding-image-source.md).
 

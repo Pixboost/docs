@@ -27,11 +27,8 @@ After:
 
 Before:
 
-```text
-<picture>
-```
-
 ```markup
+<picture>
     <source srcset="http://www.midday.coffee/assets/cup.jpeg" 
         media="(min-width: 769px)">
     <source srcset="http://www.midday.coffee/assets/cup.jpeg" 
