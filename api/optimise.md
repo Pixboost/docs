@@ -10,7 +10,7 @@ API endpoint - `/api/2/img/[IMAGE-URL]/optimise`
 
 No parameters required.
 
-### Example
+### Examples
 
 | Original | After |
 | :---: | :---: |

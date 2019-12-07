@@ -12,7 +12,7 @@ API endpoint - `/api/2/img/[IMAGE-URL]/fit?size=[NEW-SIZE]`
 
 You have to specify both dimensions \[width\] and \[height\].
 
-### Example
+### Examples
 
 size =`200x100 (scaling by the smaller side which is height, cropping sides, center positioning)`
 
