@@ -14,5 +14,5 @@ No parameters required.
 
 | Original Image | Image after Pixboost transformation |
 | :--- | :--- |
-| ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTg4MjMxMzM3MA\_\_) |
+| ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ\_\_) |
 
