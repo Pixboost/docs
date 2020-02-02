@@ -36,6 +36,7 @@ Using this library, you can optimise this image and also make it responsive. The
     data-lg="optimise"
     data-md="resize?size=990"
     data-sm="resize?size=640">
+</div>
 
     <div class="content">This text is displayed on top of the image.</div>
 </div>

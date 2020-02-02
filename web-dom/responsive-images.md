@@ -14,7 +14,7 @@ For instance, for the element:
     data-md="resize?size=300"
     data-md-url="https://yoursite.com/doggy.png"
     data-sm="fit?size=100x100"
-    data-sm-url="https://yoursite.com/doggy.png"/>
+    data-sm-url="https://yoursite.com/doggy.png"></div>
 ```
 
 when you run picture\(\) function from the library:
@@ -56,7 +56,7 @@ If you have the same source image for all operations then you can specify defaul
     data-url="https://yoursite.com/doggy.png"
     data-lg="optimise"
     data-md="resize?size=300"
-    data-sm="fit?size=100x100"/>
+    data-sm="fit?size=100x100"></div>
 ```
 
 ## Alt text
@@ -69,7 +69,7 @@ You can specify alt text for responsive images using `data-alt` attribute:
     data-url="https://yoursite.com/doggy.png"
     data-lg="optimise"
     data-md="resize?size=300"
-    data-sm="fit?size=100x100"/>
+    data-sm="fit?size=100x100"></div>
 ```
 
 ## Supporting Breakpoints

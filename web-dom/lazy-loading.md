@@ -8,7 +8,7 @@ Lazy loading will not load image until it becomes visible to a user. Pixboost.js
     data-url="https://yoursite.com/doggy.png"
     data-lg="optimise"
     data-md="resize?size=300"
-    data-sm="fit?size=100x100"/>
+    data-sm="fit?size=100x100"></div>
 ```
 
 ```markup
