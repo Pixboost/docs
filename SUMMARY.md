@@ -5,6 +5,7 @@
 * [Billing and Prices](billing.md)
 * [Tools and Setup](setup/README.md)
   * [Adding Image Source](setup/adding-image-source.md)
+  * [Adding AWS S3 Bucket as Source](setup/adding-s3-bucket-image-source.md)
   * [Managing API Keys](setup/manage-api-keys.md)
   * [Snippet Generator](setup/snippet-generator.md)
   * [Custom Domain Name](setup/custom-domain.md)

@@ -4,11 +4,12 @@ To make integration easier we came up with URL-based integration. Which means al
 
 ## URL pattern for API call
 
-`https://pixboost.com/api/2/img/[IMAGE_URL]/[OPERATION]?[OPERATION_PARAMS]&auth=[API_KEY]`
+`https://pixboost.com/api/2/img/[IMAGE_URL|IMAGES_SOURCE_ALIAS_WITH_PATH]/[OPERATION]?[OPERATION_PARAMS]&auth=[API_KEY]`
 
 | Item | Description |
 | :--- | :--- |
 | **\[IMAGE\_URL\]** | The URL of the original image you would like to process through Pixboost. |
+| **\[IMAGES\_SOURCE\_ALIAS\_WITH\_PATH\]** | An alias of an images source with relative path to the image. |
 | **\[OPERATION\]** | Pixboost function call |
 | **\[OPERATION\_PARAMS\]** | Pixboost parameters for a function call you are using |
 | **\[API\_KEY\]** | A unique key created by Pixboost for security purposes |

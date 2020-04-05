@@ -6,6 +6,8 @@ You will already have one active API key that you can use, but [you can add more
 
 ## [Adding Image Source](adding-image-source.md)
 
+## [Adding AWS S3 Bucket as Source](adding-s3-bucket-image-source.md)
+
 ## [Managing API Keys](manage-api-keys.md)
 
 ## [Custom Domain Name Support](custom-domain.md)
