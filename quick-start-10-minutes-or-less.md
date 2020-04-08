@@ -1,4 +1,4 @@
-# Quick Start \(10 minutes or less\)
+# Quick Start \(under 10 minutes!\)
 
 We try to make the start with Pixboost as fast and as easy as possible. We aim it to be under 10 minutes. So, lets cut it short.
 
@@ -18,7 +18,7 @@ Enter the desired e-mail, the one your account would be associated with, to the 
 
 Go to your Mailbox, and Press the link to your new account.You will be forwarder to the password setup page.
 
-> We recommend you to create a longer and therefore safer password as your account will contain sensitive financial information.
+> We recommend you to create a longer and therefore safer password as your account could contain sensitive information, like API secrets.
 
 Please, read our Terms of Service and Privacy Policy thoroughly then tick the box ToC and Privacy Policy.
 
@@ -34,25 +34,27 @@ Add at least one _**Image Domain**_ you are going to work with by pressing the "
 
 Then add your _**Image Domain**_ to the form and press "**Add**" button:
 
-![](.gitbook/assets/add_domain_form.png)
+![](.gitbook/assets/add-domain-1.png)
 
-You can add as much domains and sub-domains as you need by clicking "**Add domain**" link. To delete any domains you do not need please press the "**Delete**" link.
+You can add as many domains and sub-domains as you need by clicking "**Add domain**" link. To delete any domain press the "**Delete**" link.
 
-![](.gitbook/assets/many_domains.png)
+![](.gitbook/assets/many-domains.png)
 
 ## **Step 4**
 
-Below you will see a pre-generated _**API Keys**_, which you will use to generate more API Keys if needed.
+Below you will see a pre-generated _**API Keys**_, which you will use to access API.
 
-> _**API Key**_ is a value that is generated for security purposes by Pixboost. You have to use it in the URLs of images you wish to deliver through Pixboost service.
+> _**API Key**_ is a value that is generated for security purposes by Pixboost. 
+> You have to use it in the URLs of images you wish to deliver through Pixboost service.
 
-![](.gitbook/assets/api_keys.png)
+![](.gitbook/assets/api-keys.png)
 
-You might need more then one key in your project. Please read the manual on **API Keys Usage and Security Issues**.
+You might need more than one key in your project. Please read the manual on 
+[API Keys Usage and Security Issues](./setup/manage-api-keys.md).
 
-To add more keys please press the link "**Generate new key**":
+To add more keys press the "**Generate new key**" link:
 
-![](.gitbook/assets/generate_new_keys.png)
+![](.gitbook/assets/generate-new-keys.png)
 
 ## **Step 5**
 
@@ -92,7 +94,7 @@ Basic API operations are:
 
   `https://pixboost.com/api/2/img/https://yourdomain.com/img.png/asis?auth=API_KEY`
 
-Please, refer to the samples in the bottom of the page:
+Please, refer to the examples at the bottom of the page:
 
 ![](.gitbook/assets/url_samples.png)
 
@@ -102,5 +104,5 @@ For more information on API, please read the [Images API section](api/).
 
 Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](api/) instructions.
 
-Apart from URL-based transformations we provide [pixboost.js](web-dom/) and [pixboost-react](react/) libraries for more complex integration cases. For more information please check our integration documentation [here](web-dom/).
+Apart from URL-based transformations we provide developers friendly libraries: [pixboost.js](web-dom/) and [pixboost-react](react/). 
 
