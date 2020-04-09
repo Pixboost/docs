@@ -1,0 +1,14 @@
+@startuml
+
+actor Bob
+participant Pixboost
+participant AWS
+
+Bob -> Pixboost: Loads an image\n pixboost.com/api/2/img/ALIAS/this/is/image.png/optimise?auth=APIKEY
+Pixboost -> Pixboost: Finds ALIAS images source
+Pixboost -> AWS: Requests "this/is/image.png" using\n bucket name, credentials from loaded\n images source
+AWS -> Pixboost: Respond with an image
+Pixboost -> Pixboost: Optimises an image
+Pixboost -> Bob: Respond with optimised image
+
+@enduml
