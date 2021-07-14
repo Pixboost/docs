@@ -6,7 +6,7 @@ When you login for the first time then you will see a "Welcome" banner:
 
 ![](../.gitbook/assets/welcome.png)
 
-Click on the "Plus" button and you will have to add your domain name in a dialog window "Add domain":
+Click on the "Plus" button, and you will have to add your domain name in a dialog window "Add domain":
 
 ![](../.gitbook/assets/add-domain-1.png)
 
@@ -28,3 +28,4 @@ That's enough to start using the service. Try it out it in your browser:
 https://pixboost.com/api/2/img/http://i.imgur.com/RgSMqlKg.jpg/resize?size=200&auth=MzI0NTc5NDAyMQ__
 ```
 
+If you prefer to not specify full URL of the original image 

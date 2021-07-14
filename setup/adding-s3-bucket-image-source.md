@@ -62,7 +62,7 @@ To set up the integration:
 
 * Click on "Add" button and verify that the source has been created
 
-![](../.gitbook/assets/verify-images-source.png)
+![](../.gitbook/assets/verify-s3-images-source.png)
 
 ## Using API
 
