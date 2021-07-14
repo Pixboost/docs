@@ -16,12 +16,12 @@ You can specify only one dimension and the second will be calculated according t
 
 | Parameters | Original | After |
 | :--- | :---: | :---: |
-| size=200 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200&auth=MTA0ODU5NDA0NQ\_\_) |
-| size=x80 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=x80&auth=MTA0ODU5NDA0NQ\_\_) |
+| size=200 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200&auth=MTA0ODU5NDA0NQ__) |
+| size=x80 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=x80&auth=MTA0ODU5NDA0NQ__) |
 
 ### Sandbox
 
 | Original Image | Image after Pixboost transformation |
 | :--- | :--- |
-| [www.midday.coffee/assets/cup.jpeg](www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200x100&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200x100&auth=MTA0ODU5NDA0NQ\_\_) |
+| [www.midday.coffee/assets/cup.jpeg](https://github.com/Pixboost/docs/tree/a18a5ae66426629920df8220795d1a1ac414a5a0/api/www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200x100&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200x100&auth=MTA0ODU5NDA0NQ__) |
 

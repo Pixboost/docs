@@ -14,13 +14,13 @@ No parameters required.
 
 | Original | After |
 | :---: | :---: |
-| ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ\_\_) |
+| ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ__) |
 
-In the example above an image becomes at least 20% lighter 
+In the example above an image becomes at least 20% lighter
 
 ### Sandbox
 
 | Original Image | Image after Pixboost transformation |
 | :--- | :--- |
-| [www.midday.coffee/assets/cup.jpeg](www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ__) |
+| [www.midday.coffee/assets/cup.jpeg](https://github.com/Pixboost/docs/tree/8f93cdfa3e5fdb7584ce488ef51153268bef537f/api/www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ__) |
 
