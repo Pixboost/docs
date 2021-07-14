@@ -1,4 +1,4 @@
-# Quick Start \(under 10 minutes!\)
+# Quick Start \(10 minutes or less\)
 
 We try to make the start with Pixboost as fast and as easy as possible. We aim it to be under 10 minutes. So, lets cut it short.
 
@@ -44,13 +44,11 @@ You can add as many domains and sub-domains as you need by clicking "**Add domai
 
 Below you will see a pre-generated _**API Keys**_, which you will use to access API.
 
-> _**API Key**_ is a value that is generated for security purposes by Pixboost. 
-> You have to use it in the URLs of images you wish to deliver through Pixboost service.
+> _**API Key**_ is a value that is generated for security purposes by Pixboost. You have to use it in the URLs of images you wish to deliver through Pixboost service.
 
 ![](.gitbook/assets/api-keys.png)
 
-You might need more than one key in your project. Please read the manual on 
-[API Keys Usage and Security Issues](./setup/manage-api-keys.md).
+You might need more than one key in your project. Please read the manual on [API Keys Usage and Security Issues](setup/manage-api-keys.md).
 
 To add more keys press the "**Generate new key**" link:
 
@@ -104,5 +102,5 @@ For more information on API, please read the [Images API section](api/).
 
 Update all the **Image URLs** on your website that you wish to process through Pixboost according to the **Step 5** and [Image API](api/) instructions.
 
-Apart from URL-based transformations we provide developers friendly libraries: [pixboost.js](web-dom/) and [pixboost-react](react/). 
+Apart from URL-based transformations we provide developers friendly libraries: [pixboost.js](web-dom/) and [pixboost-react](react/).
 

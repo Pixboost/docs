@@ -32,16 +32,11 @@ Please, follow steps from ["Installation"](shopify.md#installation) section to u
 
 ![](.gitbook/assets/shopify-added-theme.png)
 
-At this point, you should be able to preview the theme, 
-and it will use Pixboost demo account. All the images will be served from 
-Pixboost Image CDN. Note that first time the images will load slowly as 
-they will go through optimisation and CDN uploading process. 
-Reload the page after the initial load to see the real performance.
+At this point, you should be able to preview the theme, and it will use Pixboost demo account. All the images will be served from Pixboost Image CDN. Note that first time the images will load slowly as they will go through optimisation and CDN uploading process. Reload the page after the initial load to see the real performance.
 
 ![](.gitbook/assets/shopify-preview-theme.png)
 
-Once you are happy with the result, you would need to create a Pixboost account 
-and use your API key:
+Once you are happy with the result, you would need to create a Pixboost account and use your API key:
 
 * [Sign up here](https://github.com/Pixboost/docs/tree/f5010c234fd24fe5e3402831d8152bbad3b3c3ea/shopify/pixboost.com/customer/README.md#/signup) and select Shopify integration
 
@@ -67,9 +62,7 @@ and use your API key:
 
 ![](.gitbook/assets/shopify-save-theme.png)
 
-Congratulation! You now have responsive, optimised and fast images on your 
-Shopify store. Keep customizing your page layouts and publish the theme once
-you are ready.
+Congratulation! You now have responsive, optimised and fast images on your Shopify store. Keep customizing your page layouts and publish the theme once you are ready.
 
 ## Integration with a custom theme
 

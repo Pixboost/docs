@@ -1,13 +1,10 @@
-# Adding AWS S3 bucket as image source
+# Adding AWS S3 Bucket as Source
 
-Using Pixboost, you can set up a private S3 bucket to be a source of your images.
-Here, we will go through requirements for the S3 bucket, how to add an integration to Pixboost 
-and how to optimise images from the bucket using API.
+Using Pixboost, you can set up a private S3 bucket to be a source of your images. Here, we will go through requirements for the S3 bucket, how to add an integration to Pixboost and how to optimise images from the bucket using API.
 
 ## AWS setup
 
-We assume that you already have S3 bucket with your images stored there. If not then you
-can read how to do that [here](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html).
+We assume that you already have S3 bucket with your images stored there. If not then you can read how to do that [here](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html).
 
 To setup a new user that you'll integrate with Pixboost:
 
@@ -17,7 +14,7 @@ To setup a new user that you'll integrate with Pixboost:
 
 Below is an example of a bucket policy:
 
-```json
+```javascript
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -39,7 +36,7 @@ Below is an example of a bucket policy:
         }
     ]
 }
-``` 
+```
 
 ## Pixboost setup
 
@@ -51,13 +48,15 @@ To set up the integration:
 ![](../.gitbook/assets/add-images-source.png)
 
 * In the appeared form set Type to "Amazon AWS S3 Bucket" and fill in the details
-  * *Alias* is a unique identifier of the images source that will be used in the URL when calling API
-  * *Bucket name* is the name of a bucket
-  * *Region* is an AWS region ID of the bucket
-  * *Path Prefix* is an optional prefix that will be used for all requests. It could be used if all your images in 
+  * _Alias_ is a unique identifier of the images source that will be used in the URL when calling API
+  * _Bucket name_ is the name of a bucket
+  * _Region_ is an AWS region ID of the bucket
+  * _Path Prefix_ is an optional prefix that will be used for all requests. It could be used if all your images in 
+
     the bucket stored in one folder. In that case, you could set "Path prefix", and you won't need to add it to each API call. 
-  * *Access Key* is an AWS IAM user's access key created in the step above
-  * *Secret Key* is an AWS IAM user's secret key created in the step above
+
+  * _Access Key_ is an AWS IAM user's access key created in the step above
+  * _Secret Key_ is an AWS IAM user's secret key created in the step above
 
 ![](../.gitbook/assets/add-s3-images-source.png)
 
@@ -67,22 +66,17 @@ To set up the integration:
 
 ## Using API
 
-All API requests follow the [original pattern](../api/README.md):
+All API requests follow the [original pattern](../api/):
 
 `https://pixboost.com/api/2/img/[ALIAS]/[PATH_TO_THE_IMAGE]/[OPERATION]?[OPERATION_PARAMS]&auth=[API_KEY]`
 
-Let's consider a configuration from the step above. For instance, if there is an image in 
-S3 bucket with a path (key): `prefix/another-prefix/images/hello.png` then to resize it we 
-use the following API call:
+Let's consider a configuration from the step above. For instance, if there is an image in S3 bucket with a path \(key\): `prefix/another-prefix/images/hello.png` then to resize it we use the following API call:
 
 `https://pixboost.com/api/2/img/bucket/images/hello.png/resize?size=200&auth=[API_KEY]`
 
-In the example above `/bucket` (after `/api/2/img`) will be replaced with bucket name and
-path prefix - `pixboost-test-source/prefix/another-prefix`
+In the example above `/bucket` \(after `/api/2/img`\) will be replaced with bucket name and path prefix - `pixboost-test-source/prefix/another-prefix`
 
 ## Limitations
 
-You could have a maximum of 10 images sources. That is a soft limit, so if you'd like
-to raise it, please email us at customer.service@pixboost.com
+You could have a maximum of 10 images sources. That is a soft limit, so if you'd like to raise it, please email us at customer.service@pixboost.com
 
-   

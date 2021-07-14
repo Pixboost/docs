@@ -16,5 +16,5 @@ To use the feature, please:
 
 **Step 3:** Enter the URL of the image you wish to update and press "**Invalidate**" button.
 
-![](../.gitbook/assets/invalidate_cache.png)
+![](../.gitbook/assets/invalidate_cache%20%281%29.png)
 

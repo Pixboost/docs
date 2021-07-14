@@ -10,7 +10,9 @@ Below is the diagram that shows how Pixboost works:
 
 Here is the short video on how to use Pixboost:
 
-[](https://youtu.be/Uj7EU5rUvx8)
+{% embed url="https://youtu.be/Uj7EU5rUvx8" %}
+
+
 
 To start working with the service you would only need to register and [add you image source](setup/adding-image-source.md).
 
