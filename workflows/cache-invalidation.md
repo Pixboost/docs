@@ -4,11 +4,11 @@ API endpoint - `DELETE /api/2/img/[IMAGE-URL]?auth=[API_SECRET]`
 
 ## Description
 
-Cache invalidation a service endpoint that allows you to invalidate images cached on CDN.
+Cache invalidation invalidates images cached on CDN and Pixboost 2nd level cache.
 
-Calling example using curl:
+Example:
 
-```text
+```bash
 curl -X DELETE 'https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg?auth=ABCDEF'
 ```
 
@@ -18,9 +18,9 @@ API\_SECRET - [secret key](api-secrets.md).
 
 ## Response
 
-200 - Image been cleared. Usually, you'll see this response if image hasn't been cached in CDN
+200 - Image has been invalidated.
 
-202 - Request been successfully accepted. Cache will be cleared in 5 minutes or so.
+202 - Invalidation process began and will finish soon. Usually it will take up to the 5 minutes.
 
 401 - Failed authorization. Image domain is not in the list of [images sources](../setup/adding-image-source.md)
 

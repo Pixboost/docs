@@ -39,6 +39,7 @@
 * [Shopify Integration](shopify.md)
 * [Automated Workflows](workflows/README.md)
   * [Cache Invalidation](workflows/cache-invalidation.md)
+  * [Warmup](workflows/warmup.md)
   * [API Secrets](workflows/api-secrets.md)
 * [Performance Testing](proper-performance-testing.md)
 * [Open Source Version](open-source-version.md)
