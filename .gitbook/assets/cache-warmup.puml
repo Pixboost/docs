@@ -1,0 +1,16 @@
+@startuml
+actor user
+participant server as "Your Server"
+participant cache as "CDN/2nd level cache"
+participant Pixboost
+
+user -> server: Uploads an image
+server -> Pixboost: POST /api/2/img/warmup\n{images: [<list of URLs for transformation>]}
+Pixboost -> server: 202 Accepted
+Pixboost -> Pixboost: Running transformations
+Pixboost -> cache: filling CDN and 2nd level cache
+== ==
+user <- server: User loads a page with images
+user <- cache: Already pre-processed images delivered
+
+@enduml
