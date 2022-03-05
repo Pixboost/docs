@@ -2,7 +2,6 @@
 
 * [Overview](README.md)
 * [Quick Start \(10 minutes or less\)](quick-start-10-minutes-or-less.md)
-* [Billing and Prices](billing.md)
 * [Tools and Setup](setup/README.md)
   * [Adding Images Domain](setup/adding-image-source.md)
   * [Adding HTTP image source](setup/adding-http-image-source.md)

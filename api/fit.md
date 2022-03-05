@@ -18,7 +18,7 @@ size =`200x100 (scaling by the smaller side which is height, cropping sides, cen
 
 | Parameters | Original | After |
 | :--- | :---: | :---: |
-| size=200x100 | ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__) |
+| size=200x100 | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ__) | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__) |
 
 ### Sandbox
 

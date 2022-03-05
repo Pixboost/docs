@@ -13,5 +13,5 @@ Example of the workflow could be a CDN cache invalidation when a source image up
 
 ## Pricing
 
-There is a limitation in number of calls that you allowed to do that depends on the selected plan. Please, refer to the [pricing page](../billing.md) to see the exact numbers.
+There is a number of calls that you allowed to do on each billing plan. Please, refer to the [pricing page](https://pixboost.com/prices/) to see the exact numbers.
 

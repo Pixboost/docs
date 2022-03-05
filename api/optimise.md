@@ -14,7 +14,7 @@ No parameters required.
 
 | Original | After |
 | :---: | :---: |
-| ![](http://www.midday.coffee/assets/cup.jpeg) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ__) |
+| ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ__) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?&auth=MTA0ODU5NDA0NQ__) |
 
 In the example above an image becomes at least 20% lighter
 
