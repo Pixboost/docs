@@ -10,7 +10,7 @@ You will already have one active API Key that you can start using straight away.
 
 You'll need to pass an API Key in a query parameter called "**auth**" in the transformation URL. For example:
 
-[https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&\*\*auth=MTg4MjMxMzM3MA\](https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&**auth=MTg4MjMxMzM3MA\)\_\*\*\_
+[https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&\*\*auth=MTg4MjMxMzM3MA\\](https://pixboost.com/api/2/img/pixabay.com/logo.png/resize?size=200&\*\*auth=MTg4MjMxMzM3MA\\)\_\*\*\_
 
 You are able to delete and/or create new API Keys from the dashboard. You can use any API Key with any image source.
 
@@ -31,4 +31,3 @@ Let's imagine that someone started using your transformed images from _**bar.com
 In case to prevent that you would need to create a new API key and start using it on _**bar.com**_. Once that done you can delete old API key.
 
 If _**foo.com**_ is also using the old API key then you would need to change it there as well. But, if you use different API Keys in the first place then you won't need to change both of your websites.
-

@@ -10,11 +10,10 @@ _**Cache Invalidation**_ _\*\*_is a feature that allows you to update an image w
 
 To use the feature, please:
 
-**Step 1:** log into your [Pixboost](https://pixboost.com/) account by pressing "**Login**" button in the Menu and entering your Login and Password.
+**Step 1:** log into your [Pixboost](https://pixboost.com) account by pressing "**Login**" button in the Menu and entering your Login and Password.
 
 **Step 2:** Open the "**Tools**" tab.
 
 **Step 3:** Enter the URL of the image you wish to update and press "**Invalidate**" button.
 
-![](../.gitbook/assets/invalidate_cache%20%281%29.png)
-
+![](<../.gitbook/assets/invalidate\_cache (1) (1).png>)
