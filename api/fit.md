@@ -4,7 +4,8 @@ API endpoint - `/api/2/img/[IMAGE-URL]/fit?size=[NEW-SIZE]`
 
 ## Description
 
-**Fit** - resizes image, crops it to the size and optimises it using lossy compression. If you need to resize image with preserved aspect ratio then use [resize operation](https://help.pixboost.com/api/resize.html).
+**Fit** - resizes, crops, and optimises source image. This operation does not respect original aspect ratio. 
+If you need to preserve aspect ratio then use [resize operation](./resize.md).
 
 ## Parameters
 
@@ -12,17 +13,17 @@ API endpoint - `/api/2/img/[IMAGE-URL]/fit?size=[NEW-SIZE]`
 
 You have to specify both dimensions \[width\] and \[height\].
 
+**dppx** - Number of dots per pixel defines the ratio between device and CSS pixels. The query parameter is a hint that enables extra optimisations for high density screens. The format is a float number in the same format as window.devicePixelRatio.
+
 ### Examples
 
-size =`200x100 (scaling by the smaller side which is height, cropping sides, center positioning)`
+`size=200x100` - scaling by the smaller side which is height, cropping sides, center positioning
 
-| Parameters | Original | After |
-| :--- | :---: | :---: |
-| size=200x100 | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ__) | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__) |
+`dppx=2` - 
 
-### Sandbox
-
-| Original Image | Image after Pixboost transformation |
-| :--- | :--- |
-| [www.midday.coffee/assets/cup.jpeg](https://github.com/Pixboost/docs/tree/8f93cdfa3e5fdb7584ce488ef51153268bef537f/api/www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__)\_ |
+| Parameters   |                                                            Image                                                             | 
+|:-------------|:----------------------------------------------------------------------------------------------------------------------------:|
+| Original     |           ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ__)            |
+| size=200x100 |     ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&auth=MTA0ODU5NDA0NQ__)      |
+| size=200x100&dppx=2 | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/fit?size=200x100&dppx=2&auth=MTA0ODU5NDA0NQ__)   |
 
