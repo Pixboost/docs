@@ -8,18 +8,16 @@ API endpoint - `/api/2/img/[IMAGE-URL]/optimise`
 
 ## Parameters
 
-No parameters are required.
+**dppx** \(optional\) - Number of dots per pixel defines the ratio between device and CSS pixels. The query parameter is a hint that enables extra optimisations for high density screens. The format is a float number in the same format as window.devicePixelRatio.
 
 ### Examples
 
-|                                                  Original                                                 |                                                      After                                                     |
-| :-------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-| ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ\_\_) | ![](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?\&auth=MTA0ODU5NDA0NQ\_\_) |
+* `dppx=2` - sending a hint to the API that screen has DPI=2
 
-In the example above an original image is 9.4Kb and optimised is 4Kb.
+| Parameters    |                                                       Image                                                        | 
+|:--------------|:------------------------------------------------------------------------------------------------------------------:|
+| Original      |      ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/asis?auth=MTA0ODU5NDA0NQ__)       |
+| No parameters |    ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?auth=MTA0ODU5NDA0NQ__)     |
+| dppx=2        | ![](https://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?dppx=2&auth=MTA0ODU5NDA0NQ__) |
 
-### Sandbox
-
-| Original Image                                                                                                                                            | Image after Pixboost transformation                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [www.midday.coffee/assets/cup.jpeg](https://github.com/Pixboost/docs/tree/8f93cdfa3e5fdb7584ce488ef51153268bef537f/api/www.midday.coffee/assets/cup.jpeg) | [http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?\&auth=MTA0ODU5NDA0NQ\_\_](http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/optimise?\&auth=MTA0ODU5NDA0NQ\_\_) |
+###### You can see URL of the examples by "right-click -> Copy Image address"
