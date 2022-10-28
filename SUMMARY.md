@@ -7,6 +7,7 @@
   * [Adding HTTP image source](setup/adding-http-image-source.md)
   * [Adding AWS S3 Bucket as Source](setup/adding-s3-bucket-image-source.md)
   * [Managing API Keys](setup/manage-api-keys.md)
+  * [Managing Users](setup/manage-users.md)
   * [Snippet Generator](setup/snippet-generator.md)
   * [Custom Domain Name](setup/custom-domain.md)
   * [Cache Invalidation](setup/cache-invalidation.md)

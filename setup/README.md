@@ -12,11 +12,12 @@ You will already have one active API key that you can use, but [you can add more
 
 ## [Managing API Keys](manage-api-keys.md)
 
+## [Managing Users](manage-users.md)
+
 ## [Custom Domain Name Support](custom-domain.md)
 
 ## [Cache Invalidation](cache-invalidation.md)
 
 ## [Snippet Generator](snippet-generator.md)
 
-## [Managing Users](manage-users.md)
 
