@@ -36,5 +36,5 @@ Please, consider the following sources for more information:
 
 ## [API Sandbox](https://pixboost.com/docs/api/)
 
-## [Questions and Answers](https://help.pixboost.com/questions-and-answers.html)
+## [Questions and Answers](https://pixboost.com/faq/)
 

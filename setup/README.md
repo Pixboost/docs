@@ -18,3 +18,5 @@ You will already have one active API key that you can use, but [you can add more
 
 ## [Snippet Generator](snippet-generator.md)
 
+## [Managing Users](manage-users.md)
+
