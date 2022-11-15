@@ -12,17 +12,17 @@ Currently, there are three roles you can pick from:
 
 ## Adding a new User
 
-1. Login to the dashboard and go to the "Users" menu item under the "Account" section
+* Login to the dashboard and go to the "Users" menu item under the "Account" section
 
 ![](../.gitbook/assets/manage-users/add-user-1.png)
 
-2. Click on the "Invite New User" button
-3. Fill in the Email and pick a role
+* Click on the "Invite New User" button
+* Fill in the Email and pick a role
 
 ![](../.gitbook/assets/manage-users/add-user-2.png)
 
-4. Click the "Add" button
-5. User will receive an invitation email shortly after that with the setup link
+* Click the "Add" button
+* User will receive an invitation email shortly after that with the setup link
 
 ## Good practices
 
