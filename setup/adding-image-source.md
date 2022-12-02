@@ -1,4 +1,4 @@
-# Adding Images Domain
+# Adding Source Image Domain
 
 **Image domain** is the domain name of your server where your images are stored. Pixboost will allow only requests to the images from domains that are listed. Using list of domains allows us to make service secure and protect you account from malicious abuse.
 

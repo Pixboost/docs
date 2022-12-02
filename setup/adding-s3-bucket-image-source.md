@@ -1,4 +1,4 @@
-# Adding AWS S3 Bucket as Source
+# Adding AWS S3 Bucket Image Source
 
 Using Pixboost, you can set up a private S3 bucket to be a source of your images. Here, we will go through requirements for the S3 bucket, how to add an integration to Pixboost and how to optimise images from the bucket using API.
 

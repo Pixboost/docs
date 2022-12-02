@@ -1,4 +1,4 @@
-# HTTP image source
+# Adding HTTP Image Source
 
 You could add HTTP image source to shorten URLs that you are using for the integration. 
 
