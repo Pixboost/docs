@@ -1,12 +1,12 @@
-# Quick Start \(10 minutes or less\)
+# Quick Start in 5 minutes
 
 We try to make the start with Pixboost as fast and as easy as possible. We aim it to be under 10 minutes. So, lets cut it short.
 
 The main goal is to setup images on your websites to be served through the Pixboost. 
 
-![Diagram of how Pixboost serves images](.gitbook/assets/cdn-diagram-aboutpage.jpg)
+![Diagram of how Pixboost serves images](.gitbook/assets/pixboost-concept.png)
 
-## Step 1
+## Step 1 - Signup
 
 [Signup](https://pixboost.com/customer/#/signup) using your Google account or by filling in the details.
 
@@ -15,7 +15,7 @@ The main goal is to setup images on your websites to be served through the Pixbo
 If you decided to go with Email/Password then you'll receive a confirmation email shortly after 
 submitting the form.
 
-## Step 2
+## Step 2 - Setup source images
 
 Add at least one **Image Domain** or **Image Source**. This will let the service know where the destination
 of you source (original) images.
@@ -31,14 +31,14 @@ Image Domain is easier to setup.
 
 ![Adding HTTP source](.gitbook/assets/quickstart/add-http-source.png)
 
-## Step 3
+## Step 3 - API key
 
 Once you added a domain or source you will see the Dashboard main view. We have already generated an API
 key for you, so you can start optimise your images.
 
 ![List of API keys in dashboard](.gitbook/assets/quickstart/api-keys.png)
 
-## Step 4
+## Step 4 - Call API
 
 Use API to optimise or resize the image from your website. You can use Chrome 
 to call the API
@@ -55,11 +55,16 @@ to call the API
 
 ![Example of optimising the image using HTTP source](.gitbook/assets/quickstart/optimise-image-using-image-source.png)
 
-## Step 5
+## Step 5 - Optimise the image on the website
 
 Update image URL in the markup of your website
 
-![](.gitbook/assets/quickstart/using-in-markup.png)
+![Use image in the HTML markup](.gitbook/assets/quickstart/using-in-markup.png)
 
+## What's next
+
+* Learn more on how tou use Pixboost [API](./api/README.md)
+* Managing [API keys](./setup/manage-api-keys.md)
+* Setup [custom domain name](./setup/custom-domain.md)
  
 
