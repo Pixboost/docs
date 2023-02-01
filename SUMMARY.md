@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Quick Start \(10 minutes or less\)](quick-start-10-minutes-or-less.md)
+* [Quickstart](quickstart.md)
 * [Tools and Setup](setup/README.md)
   * [Adding Source Image Domain](setup/adding-image-source.md)
   * [Adding HTTP Image Source](setup/adding-http-image-source.md)
