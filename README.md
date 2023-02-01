@@ -4,7 +4,7 @@
 
 The service works end-2-end and includes 2 main components:
 
-* API - number of HTTP endpoints that optimising and transform images
+* API - Collection of HTTP endpoints that optimising and transform images
 * CDN - Content Delivery Network that stores optimised images in the closest to the user location
 
 Once an image has been processed, it's cached on CDN, increasing the speed at which images can be retrieved on subsequent requests.
