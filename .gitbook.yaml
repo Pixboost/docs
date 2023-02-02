@@ -5,4 +5,4 @@ structure:
   summary: SUMMARY.md
 
 redirects:
-  quick-start-10-minutes-or-less.md:quickstart.md
+  quick-start-10-minutes-or-less: quickstart.md
