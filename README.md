@@ -9,7 +9,7 @@ The service works end-2-end and includes 2 main components:
 
 Once an image has been processed, it's cached on CDN, increasing the speed at which images can be retrieved on subsequent requests.
 
-![Diagram that shows how Pixboost Image CDN works](.gitbook/assets/pixboost-concept.png)
+![Diagram that shows how Pixboost Image CDN works](.gitbook/assets/pixboost-concept.png "Pixboost workflow")
 
 Here is the short video on how to use Pixboost API:
 
