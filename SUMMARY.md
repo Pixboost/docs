@@ -3,9 +3,10 @@
 * [Overview](README.md)
 * [Quickstart](quickstart.md)
 * [Tools and Setup](setup/README.md)
-  * [Adding Source Image Domain](setup/adding-image-source.md)
-  * [Adding HTTP Image Source](setup/adding-http-image-source.md)
-  * [Adding AWS S3 Bucket Image Source](setup/adding-s3-bucket-image-source.md)
+  * Source Images
+    * [Adding Source Image Domain](setup/source-images/domain.md)
+    * [Adding HTTP Image Source](setup/source-images/http.md)
+    * [Adding AWS S3 Bucket Image Source](setup/source-images/s3.md)
   * [Managing API Keys](setup/manage-api-keys.md)
   * [Managing Users](setup/manage-users.md)
   * [Snippet Generator](setup/snippet-generator.md)

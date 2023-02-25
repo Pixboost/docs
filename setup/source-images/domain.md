@@ -4,11 +4,11 @@
 
 When you login for the first time then you will see a "Welcome" banner:
 
-![](../.gitbook/assets/welcome.png)
+![](../../.gitbook/assets/welcome.png)
 
 Click on the "Plus" button, and you will have to add your domain name in a dialog window "Add domain":
 
-![](../.gitbook/assets/add-domain-1.png)
+![](../../.gitbook/assets/add-domain-1.png)
 
 {% hint style="info" %}
 If you'd like to load images from a private AWS S3 bucket then click on the "Bucket" icon and follow [steps from here](adding-s3-bucket-image-source.md)
@@ -16,11 +16,11 @@ If you'd like to load images from a private AWS S3 bucket then click on the "Buc
 
 Enter your domain and click the "Add" button:
 
-![](../.gitbook/assets/add-domain-2.png)
+![](../../.gitbook/assets/add-domain-2.png)
 
 You will see adeed domain in the list now:
 
-![](../.gitbook/assets/domains-list.png)
+![](../../.gitbook/assets/domains-list.png)
 
 That's enough to start using the service. Try it out it in your browser:
 

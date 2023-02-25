@@ -6,3 +6,6 @@ structure:
 
 redirects:
   quick-start-10-minutes-or-less: quickstart.md
+  setup/adding-s3-bucket-image-source: setup/source-images/s3.md
+  setup/adding-image-source: setup/source-images/domain.md
+  setup/adding-http-image-source: setup/source-images/http.md

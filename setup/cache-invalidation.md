@@ -5,7 +5,7 @@ Cache invalidation is a function that helps you to remove image from the CDN.
 You can delete images using either 
 
 * URL of the original image
-* Path to the image that starts with the [Image Source](./adding-http-image-source.md) alias 
+* Path to the image that starts with the [Image Source](source-images/http.md) alias 
 
 ![](../.gitbook/assets/cache-invalidation/cache-invalidation-1.png)
 

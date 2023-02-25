@@ -22,7 +22,7 @@ API\_SECRET - [secret key](api-secrets.md).
 
 202 - Invalidation process began and will finish soon. Usually it will take up to the 5 minutes.
 
-401 - Failed authorization. Image domain is not in the list of [images sources](../setup/adding-image-source.md)
+401 - Failed authorization. Image domain is not in the list of [images sources](../setup/source-images/domain.md)
 
 ## Example
 
