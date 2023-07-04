@@ -1,14 +1,7 @@
-# React Integration
+# Using with React
 
-Library for integrating pixboost API into the react applications.
+You can use pixboost-react library for an easy integration with React application.
 
-Table of Contents:
+The library work well with other frameworks that using React, e.g. Next.JS.
 
-* Usage
-  * [Installation](install.md)
-  * [Responsive images](responsive-images.md)
-  * [Non-responsive images](non-responsive-images.md)
-  * [Configuration Object](configuration-object.md)
-* [Browsers Support](browsers-support.md)
-* [Build](build.md)
-
+Please follow the link to the [GitHub page](https://github.com/Pixboost/pixboost-react) to read full documentation.

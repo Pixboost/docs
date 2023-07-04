@@ -1,6 +1,7 @@
 # Overview
 
-[**Pixboost**](https://pixboost.com/) is an Image CDN Cloud Service that resizes and optimises images to reduce file size and therefore improves load time. 
+[**Pixboost**](https://pixboost.com/) is an Image CDN Cloud Service that delivers images end to end for your 
+website or application. 
 
 The service works end-2-end and includes 2 main components:
 
@@ -15,5 +16,5 @@ Here is the short video on how to use Pixboost API:
 
 {% embed url="https://youtu.be/Uj7EU5rUvx8" %}
 
-In the next chapter, you'll learn how to start using Image CDN in 6 easy to implement steps. 
+In the next chapter, you'll learn how to start using Image CDN in five simple steps. 
 

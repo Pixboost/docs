@@ -9,3 +9,21 @@ redirects:
   setup/adding-s3-bucket-image-source: setup/source-images/s3.md
   setup/adding-image-source: setup/source-images/domain.md
   setup/adding-http-image-source: setup/source-images/http.md
+  web-dom: api/README.md
+  web-dom/install: api/README.md
+  web-dom/responsive-images: api/README.md
+  web-dom/not-responsive-images: api/README.md
+  web-dom/css-background-images: api/README.md
+  web-dom/lazy-loading: api/README.md
+  web-dom/replacing-on-document-load: api/README.md
+  web-dom/custom-domain-name: api/README.md
+  web-dom/reloading: api/README.md
+  web-dom/disabling: api/README.md
+  web-dom/browsers-support: api/README.md
+  react/install: react/README.md
+  react/responsive-images: react/README.md
+  react/non-responsive-images: react/README.md
+  react/configuration-object: react/README.md
+  react/browsers-support: react/README.md
+  react/build: react/README.md
+  setup/supported-formats: README.md
