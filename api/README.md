@@ -1,8 +1,10 @@
 # API. URL-based integration
 
-To make integration easier we came up with URL-based integration. Which means all you need to do is to setup image URL for tags **&lt;img&gt;** and **&lt;picture&gt;** to start using [Pixboost](https://pixboost.com/).
+To make integration easier we provide a lightweight API that you can directly use from HTML code.
 
 ## URL pattern for API call
+
+All endpoints follow the same pattern
 
 `https://pixboost.com/api/2/img/[IMAGE_URL|IMAGES_SOURCE_ALIAS_WITH_PATH]/[OPERATION]?[OPERATION_PARAMS]&auth=[API_KEY]`
 
@@ -11,10 +13,10 @@ To make integration easier we came up with URL-based integration. Which means al
 | **\[IMAGE\_URL\]**                        | The URL of the original image you would like to process through Pixboost. |
 | **\[IMAGES\_SOURCE\_ALIAS\_WITH\_PATH\]** | An alias of an images source with relative path to the image.             |
 | **\[OPERATION\]**                         | Pixboost function call                                                    |
-| **\[OPERATION\_PARAMS\]**                 | Pixboost parameters for a function call you are using                     |
-| **\[API\_KEY\]**                          | A unique key created by Pixboost for security purposes                    |
+| **\[OPERATION\_PARAMS\]**                 | Operation parameters for a function call you are using                    |
+| **\[API\_KEY\]**                          | A unique [API key](../setup/manage-api-keys.md)                           |
 
-### Example using tag **&lt;img&gt;**
+### Example using **&lt;img&gt;** tag
 
 Before:
 
@@ -24,7 +26,7 @@ After:
 
 `<img src="http://pixboost.com/api/2/img/http://www.midday.coffee/assets/cup.jpeg/resize?size=200x100&auth=MTg4MjMxMzM3MA__" alt="Midday Coffee">`
 
-### Example using tag **&lt;picture&gt;**
+### Example using **&lt;picture&gt;** tag
 
 Before:
 
@@ -54,7 +56,7 @@ After:
 </picture>
 ```
 
-We support main resizing transformations that you would need for your website.
+We support all transformation required for the typical website.
 
 ![](../.gitbook/assets/operations-diagram-aboutpage.png)
 
