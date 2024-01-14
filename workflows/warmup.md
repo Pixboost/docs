@@ -6,16 +6,16 @@ API endpoint - `POST /api/2/img/warmup?auth=[API_SECRET]`
 
 /warmup performs transformations and caches them, so it will speed up the first response time from the real user.
 
-The typical usecase could be an application where the user can upload images by themselves and then see them once uploaded. The first render could take some time (1-4 seconds) and using `/warmup` will decrease the response time.
+The typical usecase is an application where the user can upload images by themselves, then see them once uploaded. The first render could take some time (1-4 seconds) and using `/warmup` will decrease the response time.
 
 ![](../.gitbook/assets/cache-warmup.png)
 
 The below example will warm up caches for 2 variants of the image:
 
-* [https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?size=x100\&auth=ABCDEF](https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?size=x100\&auth=ABCDEF)
-* [https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?fit=100x100\&auth=ABCDEF](https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?fit=100x100\&auth=ABCDEF)
+* `https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?size=x100&auth=ABCDEF`
+* `https://pixboost.com/api/2/img/http://www.midday.coffee/banner.jpeg/resize?fit=100x100\&auth=ABCDEF`
 
-The URLs of the images to warm up should be exact the same you use in your FrontEnd implementation.
+The URLs of the images to warm up should be exact the same as you use in your front end implementation.
 
 ```bash
 curl -X POST -H 'Content-Type: application/json' \ 
@@ -25,7 +25,7 @@ curl -X POST -H 'Content-Type: application/json' \
 
 ## Parameters
 
-API\_SECRET - [secret key](api-secrets.md).
+API_SECRET - [secret key](api-secrets.md).
 
 ## Response
 
